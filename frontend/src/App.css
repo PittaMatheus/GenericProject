@@ -59,6 +59,12 @@ body, input, button {
   flex-direction: column;
 }
 
+.content form label span{
+  font-weight: normal;
+  color:#999;
+  font-size: 12px;
+}
+
 .content form input{
   margin-bottom: 20px;
   border: 1px solid #ddd;
@@ -88,7 +94,7 @@ body, input, button {
 }
 
 .imgLogo{
-  height: 80px;
+  height: 20px;
   padding-top: 10px;
 }
 
