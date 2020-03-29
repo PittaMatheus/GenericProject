@@ -74,7 +74,6 @@ body, input, button {
   font-size: 16px;
 }
 
-
 .content button.btn {
   border: 0;
   border-radius: 2px;
@@ -88,10 +87,28 @@ body, input, button {
   cursor: pointer;
 }
 
-
 .content button.btn:hover{
   background: rgb(42, 117, 76);
 }
+
+.content button.btnback {
+  border: 0;
+  border-radius: 2px;
+  width: 20%;
+  height: 42px;
+  padding: 0 20px;
+  font-size: 16px;
+  background: rgb(231, 230, 230);
+  font-weight: bold;
+  color: #fff;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.content button.btnback:hover{
+  background: rgb(178, 184, 181);
+}
+
 
 .imgLogo{
   height: 20px;

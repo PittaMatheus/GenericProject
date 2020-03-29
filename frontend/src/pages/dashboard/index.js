@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 
 import api from '../../services/api';
 import './styles.css';
+import back from '../../assets/back.svg';
 
 export default function Dashboard() {
   const [spots, setSpots] = useState([]);
@@ -21,6 +22,9 @@ export default function Dashboard() {
   }, [])
   return (
     <>
+      <Link to="/">
+        <button className="btnback"> <img src={back} alt="select img"></img></button>
+      </Link>
       <ul className="spot-list">
         {spots.map(spot => (
           <li key={spot._id}>
